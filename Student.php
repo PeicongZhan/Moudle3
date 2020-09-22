@@ -42,6 +42,6 @@ class Student {
         foreach($this->emails as $which=>$what)
             $result .= $which . ': '. $what. "\n";
         $result .= "\n";
-        $result = $this->status;
+        $result .= $this->status;
         return '<pre>'.$result.'</pre>';}
 }
