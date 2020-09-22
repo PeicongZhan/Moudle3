@@ -41,7 +41,7 @@ class Student {
         $result .= ' ('.$this->average().")\n";
         foreach($this->emails as $which=>$what)
             $result .= $which . ': '. $what. "\n";
-        $result .= "\n";
         $result .= $this->status;
+        $result .= "\n";
         return '<pre>'.$result.'</pre>';}
 }
